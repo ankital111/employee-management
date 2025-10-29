@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\Project\\Git\\employee-management\\employee-management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|d:\\project\\git\\employee-management\\employee-management\\repository\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|solutionrelative:repository\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|d:\\project\\git\\employee-management\\employee-management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|d:\\project\\git\\employee-management\\employee-management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|d:\\project\\git\\employee-management\\employee-management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|d:\\project\\git\\employee-management\\employee-management\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|d:\\project\\git\\employee-management\\employee-management\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|d:\\project\\git\\employee-management\\employee-management\\employee-management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|solutionrelative:employee-management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -14,17 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\Git\\employee-management\\employee-management\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Project\\Git\\employee-management\\employee-management\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T12:25:22.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\employee-management\\employee-management\\Repository\\Implementations\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Implementations\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Project\\Git\\employee-management\\employee-management\\Repository\\Implementations\\EmployeeRepository.cs",
+              "RelativeToolTip": "Repository\\Implementations\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:22:22.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\employee-management\\employee-management\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Project\\Git\\employee-management\\employee-management\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:21:45.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\employee-management\\employee-management\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Project\\Git\\employee-management\\employee-management\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:20:26.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Project\\Git\\employee-management\\employee-management\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Project\\Git\\employee-management\\employee-management\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwC0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T12:15:46.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\employee-management\\employee-management\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Project\\Git\\employee-management\\employee-management\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:15:18.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "employee-management",
               "DocumentMoniker": "D:\\Project\\Git\\employee-management\\employee-management\\employee-management.csproj",
               "RelativeDocumentMoniker": "employee-management.csproj",
               "ToolTip": "D:\\Project\\Git\\employee-management\\employee-management\\employee-management.csproj",
               "RelativeToolTip": "employee-management.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswBMAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-10-29T12:06:44.176Z",
               "EditorCaption": ""
