@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Project\\Git\\employee-management\\employee-management\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|d:\\project\\git\\employee-management\\employee-management\\employee-management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E12EF80-10F8-4A87-A781-DAB7D627A6D8}|employee-management.csproj|solutionrelative:employee-management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "employee-management",
+              "DocumentMoniker": "D:\\Project\\Git\\employee-management\\employee-management\\employee-management.csproj",
+              "RelativeDocumentMoniker": "employee-management.csproj",
+              "ToolTip": "D:\\Project\\Git\\employee-management\\employee-management\\employee-management.csproj",
+              "RelativeToolTip": "employee-management.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-29T12:06:44.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
