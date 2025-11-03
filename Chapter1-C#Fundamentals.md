@@ -1,5 +1,5 @@
 
-# 🧩 C# Fundamentals — Interview Questions & Answers
+# 🧩 C# Fundamentals 
 
 ---
 
