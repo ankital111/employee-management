@@ -38,10 +38,4 @@ Example:
 int[] arr = new int[3] {1, 2, 3};
 ArrayList list = new ArrayList {1, "two", 3.0}; // mixed types
 
-Q3. Difference between List, Dictionary, HashSet, Queue, Stack
-Collection	Description	Key Feature
-List<T>	Ordered, index-based	Fast lookup by index
-Dictionary<TKey,TValue>	Key-value pairs	Fast lookup by key
-HashSet<T>	Unordered, unique items	Ensures no duplicates
-Queue<T>	FIFO (First In, First Out)	Used for processing order
-Stack<T>	LIFO (Last In, First Out)	Used for backtracking
+
