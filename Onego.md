@@ -208,3 +208,297 @@ public class StudentService {
 ```
 
 ---
+
+
+This file contains easy-to-understand Q&A for .NET developer — focused on real-time usage, architecture, and clear explanation.
+
+---
+
+## 2. OOPS with Real-Time Examples
+
+| Concept | Explanation | Example |
+|----------|--------------|----------|
+| **Encapsulation** | Binding data using classes | `Account` class hides balance |
+| **Inheritance** | Reuse code from parent class | `Employee : Person` |
+| **Polymorphism** | Same method behaves differently | `CalculateSalary()` |
+| **Abstraction** | Hiding implementation details | `IShape` with `Draw()` method |
+
+💬 *Project use:* Used abstraction for repositories and services.
+
+---
+
+## 3. Dependency Injection in C#
+
+**Q:** What is DI and why is it used?  
+**A:** DI injects dependencies from outside instead of creating inside the class, reducing tight coupling.
+
+**Example:**
+```csharp
+public class OrderService
+{
+    private readonly IEmailService _email;
+    public OrderService(IEmailService email) => _email = email;
+}
+```
+**Startup:**
+```csharp
+services.AddScoped<IEmailService, EmailService>();
+```
+💬 Used DI for services like logging, email, and data access.
+
+---
+
+## 4. Method Overloading vs Method Overriding
+
+| Feature | Overloading | Overriding |
+|----------|--------------|------------|
+| Purpose | Same name, diff parameters | Redefine in derived class |
+| Type | Compile-time | Runtime |
+| Keyword | None | `override` |
+| Example | `Add(int, int)` / `Add(double, double)` | Override `ToString()` |
+
+---
+
+## 5. Abstraction vs Interface
+
+| Aspect | Abstract Class | Interface |
+|---------|----------------|-----------|
+| Members | Can have fields, methods | Only methods/properties |
+| Usage | When classes share base | When you need contracts |
+| Example | `abstract class Vehicle` | `interface IDrive` |
+
+---
+
+## 6. Middleware in ASP.NET Core & Configuration
+
+**Middleware:** Software that handles requests/responses in a pipeline.  
+Example:
+```csharp
+app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+app.UseEndpoints(...);
+```
+**Configuration:** Comes from `appsettings.json` or environment.
+
+```json
+"ConnectionStrings": { "Default": "Server=.;Database=MyDb;" }
+```
+
+💬 Added custom middleware for logging and global exception handling.
+
+---
+
+## 7. REST API Verbs (GET, POST, PUT, DELETE)
+
+| Verb | Purpose | Example |
+|------|----------|----------|
+| GET | Read | `/api/users` |
+| POST | Create | `/api/users` |
+| PUT | Update | `/api/users/1` |
+| DELETE | Remove | `/api/users/1` |
+
+---
+
+## 8. Difference Between PUT and POST
+
+| Feature | POST | PUT |
+|----------|------|------|
+| Action | Create | Update |
+| Idempotent | No | Yes |
+| Example | Add new record | Update existing |
+
+---
+
+## 9. Liskov Substitution Principle (SOLID)
+
+Derived classes should replace base classes without breaking behavior.  
+Example: `Bird` and `Sparrow` okay, but `Bird` and `Penguin` not (as penguin can’t fly).
+
+---
+
+## 10. Common Design Patterns
+
+| Pattern | Purpose | Example |
+|----------|----------|----------|
+| Singleton | One instance only | `LoggerService` |
+| Factory | Creates object dynamically | `ShapeFactory` |
+| Repository | Handles DB operations | `UserRepository` |
+
+---
+
+## 11. Service Lifetimes – Transient, Scoped, Singleton
+
+| Type | Lifetime | Example |
+|------|-----------|----------|
+| Transient | New each time | Utility services |
+| Scoped | Per request | Repository |
+| Singleton | One per app | Logger |
+
+---
+
+## 12. Stored Procedures & Functions
+
+| Type | Purpose | Returns |
+|------|----------|----------|
+| Procedure | Perform tasks | 0+ results |
+| Function | Return value | Scalar/Table |
+
+---
+
+## 13. SQL Query to Delete a Row
+
+```sql
+DELETE FROM Employee WHERE Id = 5;
+```
+
+---
+
+## 14. SQL Query to Remove Duplicates
+
+```sql
+DELETE FROM Employee
+WHERE Id NOT IN (SELECT MIN(Id) FROM Employee GROUP BY Email);
+```
+
+---
+
+## 15. Azure App Services & Functions
+
+| Service | Use |
+|----------|------|
+| App Service | Host web apps |
+| Function App | Serverless tasks |
+| Key Vault | Secure secrets |
+| Blob Storage | File storage |
+
+💬 Deployed APIs on Azure App Service and used Function App for background jobs.
+
+---
+
+## 16. Angular Core Concepts
+
+| Concept | Description |
+|----------|-------------|
+| Component | UI block |
+| Service | Shared logic |
+| Module | App structure |
+| Binding | Connect data to UI |
+| Directive | Adds DOM behavior |
+
+---
+
+## 17. jQuery Fundamentals
+
+| Concept | Example |
+|----------|----------|
+| DOM | `$('#id').hide();` |
+| Event | `$('#btn').click(...);` |
+| AJAX | `$.get('/api/data');` |
+
+---
+
+## 18. Middleware Deep Dive
+
+Middleware executes sequentially and can modify requests/responses.
+
+💬 Added custom error middleware in project for cleaner exception handling.
+
+---
+
+## 19. SOLID Principles Simplified
+
+| Principle | Meaning | Example |
+|------------|----------|----------|
+| SRP | One job per class | `EmailService` only sends mail |
+| OCP | Extend without change | New payment type |
+| LSP | Replace base safely | `CreditCardPayment` inherits `Payment` |
+| ISP | Split large interfaces | `IReadRepo`, `IWriteRepo` |
+| DIP | Depend on abstractions | Inject `ILogger` |
+
+---
+
+## 20. Azure Services Overview
+
+| Service | Use |
+|----------|-----|
+| App Service | Host APIs |
+| Azure SQL | Cloud DB |
+| Function App | Background jobs |
+| Key Vault | Store secrets |
+| Blob Storage | Files |
+
+---
+
+## 21. Architectural Flow
+
+```
+Client (Angular)
+↓
+Controller (API)
+↓
+Service (Business Logic)
+↓
+Repository (DB Access)
+↓
+SQL / Azure SQL
+```
+
+💬 Used layered architecture for cleaner and testable apps.
+
+---
+
+## 22. Dependency Injection in Middleware
+
+Middleware can use injected services.
+
+Example:
+```csharp
+public class LogMiddleware
+{
+    private readonly RequestDelegate _next;
+    private readonly ILogger<LogMiddleware> _logger;
+    public LogMiddleware(RequestDelegate next, ILogger<LogMiddleware> logger)
+    {
+        _next = next; _logger = logger;
+    }
+    public async Task Invoke(HttpContext context)
+    {
+        _logger.LogInformation($"Request: {context.Request.Path}");
+        await _next(context);
+    }
+}
+```
+
+---
+
+## 23. Azure Deployment & Scaling
+
+1. Push code to Azure DevOps  
+2. Build with CI/CD pipeline  
+3. Deploy to App Service  
+4. Use staging slots  
+5. Enable auto-scale
+
+---
+
+## 24. Project-Level Architecture Summary
+
+| Layer | Role | Example |
+|--------|------|----------|
+| API | Routing | Controllers |
+| Service | Business logic | `OrderService` |
+| Repository | Data access | `CustomerRepo` |
+| DTOs | Models | `UserDto` |
+| Infrastructure | Logging/Azure | `LoggerService` |
+
+---
+
+## 25. Tip 💡
+
+✅ Define → ✅ Give example → ✅ Link with project  
+
+Example:  
+> “I used Dependency Injection in my project to inject services like Email and Logging, which made the app modular and testable.”
+
+---
