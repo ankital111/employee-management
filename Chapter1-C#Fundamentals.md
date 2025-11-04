@@ -1,6 +1,6 @@
-# C# Interview Preparation — Core Concepts (Q&A with Examples)
+# C#  Preparation — Core Concepts (Q&A with Examples)
 
-This guide helps you understand and revise C# fundamentals with clear answers, examples, and additional cross-questions often asked in interviews.
+This guide helps you understand and revise C# fundamentals with clear answers, examples, and additional cross-questions often asked .
 
 ---
 
